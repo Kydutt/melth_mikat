@@ -22,6 +22,9 @@ class Export extends CI_Controller
      */
     public function index()
     {
+    }
+    public function pdf()
+    {
         $this->load->view('export_pdf');
     }
 }
